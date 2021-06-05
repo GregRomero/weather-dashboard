@@ -19,9 +19,12 @@ $( document ).ready(function() {
             const template = `
                 <div>
                     <h1>${res.name}</h1>
+                    <p>Date: ${res.main.date}</p>
                     <p>Temp: ${res.main.temp}</p>
+                    <p>feels Like: ${res.main.temp}</p>
                     <p>Humidity: ${res.main.humidity}</p>
                     <p>Wind: ${res.wind.speed}</p>
+                    <p>UVIndex: ${res.main.UVindex}</p>
                 </div>
             `;
 
